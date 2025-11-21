@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Next Number Predictor</title>
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- MUTE BUTTON -->
+<button id="muteBtn">🔊</button>
+
+<div class="window">
+
+    <h2>Next Number Predictor</h2>
+
+    <label>Select a number</label>
+
+    <div class="select-box">
+        <select id="numberSelect">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+    </div>
+
+    <button onclick="startPrediction()">Predict Next Number</button>
+
+    <div class="result" id="result"></div>
+
+    <a class="github-button" href="https://github.com/Mrinalray" target="_blank">
+        GitHub
+    </a>
+
+</div>
+
+<!-- MUSIC -->
+<audio id="musicPlayer" autoplay loop playsinline>
+    <source src="mahaan.mp3" type="audio/mpeg">
+</audio>
+
+<!-- JS FILE -->
+<script src="script.js"></script>
+
+</body>
+</html>
